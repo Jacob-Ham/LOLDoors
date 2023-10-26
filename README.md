@@ -10,12 +10,9 @@ sudo /usr/bin/chmod u+x LOLDoors.py && /usr/bin/sudo /usr/bin/cp -p LOLDoors.py 
 ```
 
 ## Usage
-
-- Clone or download the script to your target system.
-- Run it using python3 script_name.py [LHOST] [LPORT]. You can use default values for LHOST and LPORT.
-- The script will display setup information.
-- It will then set up the following:
-
+```
+LOLDoors <LHOST> <LPORT>
+```
 ## Functionalities
 
 - User Cronjob Reverse Shell: Creates a cronjob for a user with a reverse shell that runs every minute.
