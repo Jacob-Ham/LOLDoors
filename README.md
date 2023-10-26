@@ -3,7 +3,11 @@ LOLDoors is a Python script designed for automating the setup of reverse shells 
 LOLDoors was created as a quick and dirty shell script generator for backdooring and maintaining persistence on linux machines. Just run the python script on your host and paste the output into a compromised terminal (root access works best).
 
 ## Installation
-
+```
+git clone https://github.com/Jacob-Ham/LOLDoors.git
+cd LOLDoors
+sudo /usr/bin/chmod u+x LOLDoors.py && /usr/bin/sudo /usr/bin/cp -p LOLDoors.py /usr/bin/LOLDoors
+```
 
 ## Usage
 
