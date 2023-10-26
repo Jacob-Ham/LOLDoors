@@ -48,7 +48,7 @@ badServicePORT = LPORT + 20
 
 
 print(f"User Cronjob Port: {usrCronPORT}")
-print(f"System Cronjov Port: {sysCronPORT}")
+print(f"System Cronjob Port: {sysCronPORT}")
 print(f"Bad Service Port: {badServicePORT}")
 
 for i in range(pyBindPORT + 1, pyBindPORT + 10):
