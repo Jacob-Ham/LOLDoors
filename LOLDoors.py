@@ -40,6 +40,7 @@ print("""
 
 """)
 
+LPORT = int(LPORT)
 usrCronPORT = LPORT
 sysCronPORT = LPORT + 1
 
